@@ -1,0 +1,30 @@
+#!/bin/bash
+# workspace-reset file hierarchy
+
+WORKSPACE=/home/codio/workspace/
+arg=$1
+
+function init_workspace {
+	echo "Project files have been reseted"
+	sleep 2
+	clear
+}
+
+function reset_workspace {
+	echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}people.sql
+  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthdays.sql
+  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthday-ids.sql
+  > ${WORKSPACE}people-test.sql
+  > ${WORKSPACE}query-operators.sql
+  echo ' ' > ~/.mysql_history
+	echo "Reseting project files and directories"
+	sleep 2
+	init_workspace
+}
+
+case $arg in
+	workspace ) reset_workspace
+		;;
+	* ) echo "'$arg' doesn't match any available arguments" 
+		;;
+esac

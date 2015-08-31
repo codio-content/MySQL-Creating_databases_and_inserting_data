@@ -4,20 +4,44 @@
    "id": "a02b99c0-bc90-902c-2ec8-f19af90ac3",
    "title": "Recap",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Recap-a02b.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
    "id": "ea4e1b9-93f4-4b51-ab82-529422c7723a",
    "title": "What we'll learn",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/What-we-ll-learn-ea4e.md",
-   "chapter": false,
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "cb92987f-7893-2b1e-dc10-fabc61528237",
+   "title": "CRUD",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/CRUD-cb92.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "d873933a-5a78-d811-9631-2a7f25e4aba9",
+   "title": "Creating SQL databases",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-SQL-databases-d873.md",
+   "chapter": true,
    "reset": []
   }
  ],

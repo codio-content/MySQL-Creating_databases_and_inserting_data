@@ -43,6 +43,132 @@
    "content-file": ".guides/content/Creating-SQL-databases-d873.md",
    "chapter": true,
    "reset": []
+  },
+  {
+   "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
+   "title": "DB creation control",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/DB-creation-control-2a17.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "28f5d90-9494-6955-a966-cacea71e3aaf",
+   "title": "Character sets",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Character-sets-28f5.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "1a8b8572-8a49-8614-3aa3-e8edf3f79e36",
+   "title": "Creating tables",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-tables-1a8b.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "ab958375-a97a-5296-af14-c950908aeae",
+   "title": "Creating tables",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "guitar-catalog.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-tables-ab95.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "29829c77-d08d-55a1-a8e-74934c117560",
+   "title": "Creating tables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-tables-2982.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ae6e483d-e833-cbc9-c63f-a122bf26b2a8",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-ae6e.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "2d86659c-5d8e-22f8-f04d-58b49774e43f",
+   "title": "SQL constraints",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/SQL-constraints-2d86.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "6c036059-d9f5-bfc7-d78-ce535d5eb27",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-6c03.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "5d40a3b5-ef6d-dbdf-b5b0-6e1d70729b47",
+   "title": "Inserting values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "guitar-catalog-insert.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "guitar-catalog-insert.sql"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Inserting-values-5d40.md",
+   "chapter": true,
+   "reset": []
   }
  ],
  "theme": "light",

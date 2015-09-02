@@ -169,6 +169,94 @@
    "content-file": ".guides/content/Inserting-values-5d40.md",
    "chapter": true,
    "reset": []
+  },
+  {
+   "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
+   "title": "Auto increment",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Auto-increment-a292.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f1bdcd92-833d-4ac4-dc53-723b73f77d8f",
+   "title": "Inserting more values",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Inserting-more-values-f1bd.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-35b6.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "4f5ac1d4-56ec-16bb-fe44-df781b83e1c5",
+   "title": "Select LIKE operator",
+   "files": [
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Select-LIKE-operator-4f5a.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "421e699-ece0-47b0-2ecb-b0f38749480c",
+   "title": "SQL wildcards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/SQL-wildcards-421e.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f3a4b55a-cbb3-aace-f08e-6001c89cf571",
+   "title": "Wildcard examples",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Wildcard-examples-f3a4.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "6d47a065-a776-64d4-792a-a7c92fb39f13",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-6d47.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
+   "title": "Final challenges",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-challenges-2162.md",
+   "chapter": true,
+   "reset": []
   }
  ],
  "theme": "light",

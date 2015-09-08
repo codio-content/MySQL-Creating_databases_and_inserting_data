@@ -3,8 +3,14 @@
   {
    "id": "a02b99c0-bc90-902c-2ec8-f19af90ac3",
    "title": "Recap",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Recap-a02b.md",
@@ -36,7 +42,13 @@
   {
    "id": "d873933a-5a78-d811-9631-2a7f25e4aba9",
    "title": "Creating SQL databases",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",

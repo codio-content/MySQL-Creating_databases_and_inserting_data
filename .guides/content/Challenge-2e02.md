@@ -1,9 +1,9 @@
+{Check It!|assessment}(multiple-choice-3967478895)
 
 
 |||guidance
-###Correct answers:
-1. 
-2. 
-3.
+### Correct answers:
+
+Bullet-point 2
 
 |||

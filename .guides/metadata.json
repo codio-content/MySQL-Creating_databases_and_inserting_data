@@ -72,6 +72,28 @@
    "teacherOnly": false
   },
   {
+   "id": "f1ec7bdf-7660-3f54-4ea9-140a6df0e2a3",
+   "title": "DDL & DML",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/DDL---DML-f1ec.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "4a754149-17da-eda2-6e2b-59da55fbac92",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-30-4a75.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
    "title": "DB creation control",
    "files": [],

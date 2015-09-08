@@ -17,4 +17,6 @@ The _CRUD_ acronym is represented in the following table:
 | **D**elete | equals to the _DELETE_ SQL keyword |
 
 
-In the following section, we are going to create a *db_guitars_collection* database together with its table and begin to manipulate the data with the _INSERT_ keyword.
+In the following section, we are going to create a `guitars_collection` database together with its table and begin to manipulate the data with the _INSERT_ keyword.
+
+But first, complete the first challenge!

@@ -17,7 +17,7 @@ var tasks = [
   ],
   [
     "Override the dog_breeds schema with the SCHEMA IF NOT EXISTS and configure the character set to be utf-8",
-    "CREATE SCHEMA IF NOT EXISTS dog_breeds CHARACTER SET = utf-8"
+    "CREATE SCHEMA IF NOT EXISTS dog_breeds CHARACTER SET = UTF8"
   ]
 ];
 

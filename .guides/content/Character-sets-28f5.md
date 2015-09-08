@@ -13,7 +13,7 @@ There's no need to configure our existing `guitars_collection` with the _UTF-8 c
 It is important to mention though, that whenever you may want to work with a specific character set, the following command would result helpful:
 
 ```
-mysql> CREATE DATABASE db_name CHARACTER SET = utf-8;
+mysql> CREATE DATABASE db_name CHARACTER SET = utf8;
 ```
 
 ---

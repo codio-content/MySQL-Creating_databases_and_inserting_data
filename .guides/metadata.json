@@ -88,7 +88,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-30-4a75.md",
+   "content-file": ".guides/content/Challenge-4a75.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -97,10 +97,11 @@
    "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
    "title": "DB creation control",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/DB-creation-control-2a17.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [],
    "teacherOnly": false
   },
@@ -118,8 +119,26 @@
   {
    "id": "edf3d2e0-1db6-c238-cc3c-5f36e564329",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-2-1/sql-2-1.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "sql-2-1"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-edf3.md",
    "chapter": false,
@@ -135,6 +154,17 @@
    "type": "markdown",
    "content-file": ".guides/content/Basic-SQL-datatypes-ac0f.md",
    "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "4592eb06-b3b7-834a-d73d-4e54db4feb7e",
+   "title": "Datatypes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-31-4592.md",
+   "chapter": false,
    "reset": [],
    "teacherOnly": false
   },

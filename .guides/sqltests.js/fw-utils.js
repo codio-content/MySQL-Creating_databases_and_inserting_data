@@ -48,7 +48,7 @@ utils.simulateQuery = function(query, dbName, expectedQuery, callback){
 			q = q.replace(/SCHEMA/i, 'SCHEMA');
 			q = q.replace(/IF NOT EXISTS/i, 'IF NOT EXISTS');
 			q = q.replace(/CHARACTER SET/i, 'CHARACTER SET');
-			q = q.replace(/utf-8/i, 'utf-8');
+			q = q.replace(/utf8/i, 'UTF8');
 			if (q == expectedQuery) {
 				callback(false, result);
 			} else {

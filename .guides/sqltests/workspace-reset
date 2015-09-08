@@ -3,6 +3,7 @@
 
 WORKSPACE=/home/codio/workspace/
 arg=$1
+COUNT=10
 
 function init_workspace {
 	echo "Project files have been reseted"
@@ -11,12 +12,13 @@ function init_workspace {
 }
 
 function reset_workspace {
-	echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}people.sql
-  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthdays.sql
-  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthday-ids.sql
-  > ${WORKSPACE}people-test.sql
-  > ${WORKSPACE}query-operators.sql
-  echo ' ' > ~/.mysql_history
+  while (( COUNT > 0 ))                                                                                                                                     
+  do                                                                                                                                                        
+    > ${WORKSPACE}/sql-1-$COUNT/sql-1-$COUNT.sql                                                                                                            
+    (( COUNT -- ))                                                                                                                                          
+  done 
+  # > ${WORKSPACE}people-test.sql
+  # echo ' ' > ~/.mysql_history
 	echo "Reseting project files and directories"
 	sleep 2
 	init_workspace

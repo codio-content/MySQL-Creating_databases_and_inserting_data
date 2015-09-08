@@ -4,8 +4,8 @@
 |||guidance
 ### Correct answers:
 
-1. 
-2. 
-3.
+1. `CREATE DATABASE dog_breeds;`
+2. `CREATE SCHEMA IF NOT EXISTS dog_breeds;`
+3. `CREATE SCHEMA IF NOT EXISTS dog_breeds CHARACTER SET = utf-8;`
 
 |||

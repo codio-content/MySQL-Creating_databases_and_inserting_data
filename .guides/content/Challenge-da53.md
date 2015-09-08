@@ -1,9 +1,9 @@
+{Check It!|assessment}(multiple-choice-4129008003)
 
 
 |||guidance
-###Correct answers:
-1. 
-2. 
-3.
+### Correct answers:
+
+Bullet-points: 2, 4
 
 |||

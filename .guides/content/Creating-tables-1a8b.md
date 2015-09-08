@@ -14,7 +14,7 @@ When creating tables, this is exactly what we need to specify:
 
 We will call our table: `catalog`
 
-The `catalog` table structure will be the following: 
+The `catalog` table columns structure will be the following: 
 
 | id | name | year | brand |
 |----|------|------|-------|

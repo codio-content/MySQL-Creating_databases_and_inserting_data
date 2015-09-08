@@ -15,7 +15,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Recap-a02b.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "ea4e1b9-93f4-4b51-ab82-529422c7723a",
@@ -26,7 +27,8 @@
    "type": "markdown",
    "content-file": ".guides/content/What-we-ll-learn-ea4e.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "cb92987f-7893-2b1e-dc10-fabc61528237",
@@ -37,7 +39,19 @@
    "type": "markdown",
    "content-file": ".guides/content/CRUD-cb92.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2e02803f-61ba-fd34-1f3a-8c952e9d1c23",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-2e02.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "d873933a-5a78-d811-9631-2a7f25e4aba9",
@@ -54,7 +68,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Creating-SQL-databases-d873.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
@@ -64,7 +79,8 @@
    "type": "markdown",
    "content-file": ".guides/content/DB-creation-control-2a17.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "28f5d90-9494-6955-a966-cacea71e3aaf",
@@ -74,7 +90,42 @@
    "type": "markdown",
    "content-file": ".guides/content/Character-sets-28f5.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "edf3d2e0-1db6-c238-cc3c-5f36e564329",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-edf3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ac0ff61-5104-ebf3-eab3-bd373c8709",
+   "title": "Basic SQL datatypes",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Basic-SQL-datatypes-ac0f.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "da53f85-ace7-86bb-35eb-920bd18f4d9f",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-da53.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "1a8b8572-8a49-8614-3aa3-e8edf3f79e36",
@@ -85,7 +136,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Creating-tables-1a8b.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "ab958375-a97a-5296-af14-c950908aeae",
@@ -111,7 +163,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Creating-tables-ab95.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "29829c77-d08d-55a1-a8e-74934c117560",
@@ -121,7 +174,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Creating-tables-2982.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "ae6e483d-e833-cbc9-c63f-a122bf26b2a8",
@@ -131,7 +185,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenge-ae6e.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "2d86659c-5d8e-22f8-f04d-58b49774e43f",
@@ -142,7 +197,8 @@
    "type": "markdown",
    "content-file": ".guides/content/SQL-constraints-2d86.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "6c036059-d9f5-bfc7-d78-ce535d5eb27",
@@ -152,7 +208,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenge-6c03.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "5d40a3b5-ef6d-dbdf-b5b0-6e1d70729b47",
@@ -180,7 +237,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Inserting-values-5d40.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
@@ -190,7 +248,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Auto-increment-a292.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "f1bdcd92-833d-4ac4-dc53-723b73f77d8f",
@@ -200,7 +259,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Inserting-more-values-f1bd.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
@@ -210,7 +270,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenge-35b6.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "4f5ac1d4-56ec-16bb-fe44-df781b83e1c5",
@@ -227,7 +288,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Select-LIKE-operator-4f5a.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "421e699-ece0-47b0-2ecb-b0f38749480c",
@@ -237,7 +299,8 @@
    "type": "markdown",
    "content-file": ".guides/content/SQL-wildcards-421e.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "f3a4b55a-cbb3-aace-f08e-6001c89cf571",
@@ -247,7 +310,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Wildcard-examples-f3a4.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "6d47a065-a776-64d4-792a-a7c92fb39f13",
@@ -257,7 +321,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenge-6d47.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
@@ -268,7 +333,41 @@
    "type": "markdown",
    "content-file": ".guides/content/Final-challenges-2162.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "f037543-b8eb-d73c-16a7-a0f947395cc7",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-f037.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "e4af54d7-7d4c-b5ff-100a-d25e1ccda7f6",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-e4af.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d481be6a-802-313f-6546-b5a0e69cf0ff",
+   "title": "That's all folks",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/That-s-all-folks-d481.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
   }
  ],
  "theme": "light",

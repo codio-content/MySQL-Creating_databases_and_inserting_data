@@ -13,4 +13,4 @@ A wildcard character can be used to substitute any other character(s) in a strin
 |`[charlist]`	|Sets and ranges of characters to match|
 |`[^charlist]` or `[!charlist]`	|Matches only a character NOT specified within the brackets|
 
-Experiment with SQL wildcards in the next section and complete the challenge aftwerwards.
+Experiment with SQL the `%` and `_` wildcards in the next section and complete the challenge afterwards.

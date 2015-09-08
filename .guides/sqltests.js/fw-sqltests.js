@@ -1,5 +1,6 @@
 /*
-	Challenges framework
+	SQL Challenges framework
+	Version: 1.1 as of SQL2
 	Expect a result from the database and compare it as a JSON string
 */
 var mysql = require('mysql');
@@ -10,11 +11,12 @@ var connection;
 var globalCount = 0;
 var globalDbName = '';
 var queryTypes = {};
+var expectedQuery;
 
 var sqltest = {};
 sqltest.workspaceDirectory = '/home/codio/workspace/';
 sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
-// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql1/';
+// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
 // sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 
 // Init process:
@@ -52,13 +54,13 @@ function connectTo(dbName) {
 	connection.connect();
 }
 
-function queryDatabaseByType(db, query){
+function queryDatabaseByType(query){
 	var query = Utils.normalizeQueries(query)[0];
 	return new Promise(function(resolve, reject){
-		connectTo(db);
+		connectTo(globalDbName);
 		switch (true) {
 			case (/^SHOW/gi.test(query)):
-				Utils.simulateQuery(query, globalDbName, function(err, result){
+				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
 					} else {
@@ -67,7 +69,16 @@ function queryDatabaseByType(db, query){
 				});
 				break;
 			case (/^USE/gi.test(query)):
-				Utils.simulateQuery(query, globalDbName, function(err, result){
+				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
+					if (err) {
+						errorLogs.queryDatabaseByType(globalCount);
+					} else {
+				  	resolve(result);
+					}
+				});
+				break;
+			case (/^CREATE/gi.test(query)):
+				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
 					} else {
@@ -93,17 +104,16 @@ function queryDatabaseByType(db, query){
 }
 
 function dbLookup(dbName, tasks, userQueriesArr){
-	var expectedQuery;
 	var userQuery;
 	var task = tasks[globalCount][0];
 	var query = tasks[globalCount][1];
+	expectedQuery = query;
 	globalCount++;
-	queryDatabaseByType(dbName, query).then(function(expectedQuery){
-		expectedQuery = expectedQuery;
+	queryDatabaseByType(query).then(function(expected){
 		var query = userQueriesArr[globalCount-1];
-		queryDatabaseByType(dbName, query).then(function(userQuery){
+		queryDatabaseByType(query).then(function(userQuery){
 			userQuery = userQuery;
-			if (expectedQuery == userQuery) {
+			if (expected == userQuery) {
 				if (globalCount < tasks.length) {
 					dbLookup(dbName, tasks, userQueriesArr);
 				} else {

@@ -23,7 +23,7 @@ utils.sortResult = function(rows){
 	return output = JSON.stringify(output);
 }
 
-utils.simulateQuery = function(query, dbName, callback){
+utils.simulateQuery = function(query, dbName, expectedQuery, callback){
 	var q = query;
 	var result = 'Query matches.';
 	var queryUSEdb = 'use ' + dbName;
@@ -40,7 +40,20 @@ utils.simulateQuery = function(query, dbName, callback){
 				callback(false, result);
 			} else {
 				callback(true);
-			}			
+			}	
+			break;
+		case (/^CREATE\s+DATABASE|^CREATE\s+SCHEMA/i.test(q)):
+			q = q.replace(/^CREATE/i, 'CREATE');
+			q = q.replace(/DATABASE/i, 'DATABASE');
+			q = q.replace(/SCHEMA/i, 'SCHEMA');
+			q = q.replace(/IF NOT EXISTS/i, 'IF NOT EXISTS');
+			q = q.replace(/CHARACTER SET/i, 'CHARACTER SET');
+			q = q.replace(/utf-8/i, 'utf-8');
+			if (q == expectedQuery) {
+				callback(false, result);
+			} else {
+				callback(true);
+			}
 			break;
 		default:
 			callback(true);

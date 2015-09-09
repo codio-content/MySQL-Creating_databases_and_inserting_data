@@ -1,12 +1,12 @@
    UsE 
 
 
-dog_breeds
+dog_breeds;
 
 
 ;
 
-CREATE table
+CREATE table 
 dog_catalog (
 	id INT(4) NOT NULL auto_increment,
 	breed varchar ( 255), region VaRcHAr   ( 255   ),PRIMARY kEy( id )    ) 

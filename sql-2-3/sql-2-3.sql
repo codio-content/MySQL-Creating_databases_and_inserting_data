@@ -2,7 +2,7 @@ USE dog_breeds;
 
 INSERT 
 INTO 
-   dog_catalog ( breed, 
+   dog_catalog ( bree,
    region)
 
 

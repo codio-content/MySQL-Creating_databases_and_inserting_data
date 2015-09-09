@@ -55,6 +55,15 @@ function connectTo(dbName) {
 	connection.connect();
 }
 
+function dropTable(query) {
+	return new Promise(function(resolve, reject){
+		connectTo(globalDbName);
+		connection.query(query, function(err, rows, fields) {
+			errorLogs.queryDatabaseByType(globalCount);
+		});
+	});
+}
+
 function queryDatabaseByType(query){
 	var query = Utils.normalizeQueries(query)[0];
 	var output;
@@ -68,7 +77,8 @@ function queryDatabaseByType(query){
 					  		output = Utils.sortResult(err);
 					  		resolve(output);
 				  		} else {
-				  			errorLogs.queryDatabaseByType(globalCount);
+				  			var dropTableName = 'DROP TABLE '+query.split(' ')[2];
+				  			dropTable(dropTableName);
 				  		}
 		  			break;
 		  		default:

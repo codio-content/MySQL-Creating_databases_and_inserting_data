@@ -13,7 +13,7 @@ var tasks = [
   ],
   [
     "Create a 'dog_catalog' with the specified columns and datatypes",
-    "CREATE TABLE dog_catalog (id INT(4) NOT NULL auto_increment, breed VARCHAR(255), region VARCHAR(255)) AUTO_INCREMENT = 1"
+    "CREATE TABLE dog_catalog (id INT(4) NOT NULL auto_increment, breed VARCHAR(255), region VARCHAR(255), PRIMARY KEY (id)) auto_increment = 1"
   ]
 ];
 
@@ -22,4 +22,4 @@ var tasks = [
  Init test
  sql.testCommands(user source file, database name, tasks array)
 */
-sqltest.testCommands("sql-2-2/sql-2-2.sql", "dog_breeds", tasks);
+sqltest.testCommands("sql-2-2/sql-2-2.sql", 'dog_breeds', tasks);

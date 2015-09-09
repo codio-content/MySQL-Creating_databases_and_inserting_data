@@ -59,7 +59,7 @@ function queryDatabaseByType(query){
 	return new Promise(function(resolve, reject){
 		connectTo(globalDbName);
 		switch (true) {
-			case (/^SHOW/gi.test(query)):
+			case (/^SHOW\s+/gi.test(query)):
 				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
@@ -68,7 +68,7 @@ function queryDatabaseByType(query){
 					}
 				});
 				break;
-			case (/^USE/gi.test(query)):
+			case (/^USE\s+/gi.test(query)):
 				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
@@ -77,7 +77,7 @@ function queryDatabaseByType(query){
 					}
 				});
 				break;
-			case (/^CREATE/gi.test(query)):
+			case (/^CREATE\s+/gi.test(query)):
 				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
@@ -86,7 +86,7 @@ function queryDatabaseByType(query){
 					}
 				});
 				break;
-			case (/^SELECT/gi.test(query)):
+			case (/^SELECT\s+/gi.test(query)):
 				connection.query(query, function(err, rows, fields) {
 				  if (err) {
 				  	errorLogs.queryDatabaseByType(globalCount);

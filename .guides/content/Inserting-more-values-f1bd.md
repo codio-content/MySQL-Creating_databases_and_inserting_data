@@ -3,10 +3,10 @@ A `collection-2.sql` file has been created and opened for you.
 Copy and paste the following code in it:
 
 ```
-USE db_guitars_collection;
+USE guitars_collection;
 
-INSERT INTO catalog (name,year,brand) 
-VALUES 
+INSERT INTO catalog (name,manufacture_year,brand)
+VALUES
 ("Keith Richards’ Micawber", 1953, "Fender Telecaster"),
 ("Jimi Hendrix’s Monterey", 1967, "Fender Stratocaster"),
 ("Jimmy Page’s Gibson Les Paul Standard", 1959, "Gibson"),
@@ -30,15 +30,15 @@ And display all the current records (notice the _id_ `auto_increment` functional
 
 ```
 mysql> SELECT * FROM catalog;
-+----+-----------------------------------------+------+---------------------+ 
-| id | name                                    | year | brand               | 
-+----+-----------------------------------------+------+---------------------+ 
-|  1 | Brian May’s Red Special                 | 1963 | NULL                | 
-|  2 | Keith Richards’ Micawber                | 1953 | Fender Telecaster   | 
-|  3 | Jimi Hendrix’s Monterey                 | 1967 | Fender Stratocaster | 
-|  4 | Jimmy Page’s Gibson Les Paul Standard   | 1959 | Gibson              | 
-|  5 | Matt Bellamy’s Black Kaoss              | 2006 | Manson              | 
-+----+-----------------------------------------+------+---------------------+ 
++----+-----------------------------------------+------------------+---------------------+ 
+| id | name                                    | manufacture_year | brand               | 
++----+-----------------------------------------+------------------+---------------------+ 
+|  1 | Brian May’s Red Special                 | 1963             | NULL                | 
+|  2 | Keith Richards’ Micawber                | 1953             | Fender Telecaster   | 
+|  3 | Jimi Hendrix’s Monterey                 | 1967             | Fender Stratocaster | 
+|  4 | Jimmy Page’s Gibson Les Paul Standard   | 1959             | Gibson              | 
+|  5 | Matt Bellamy’s Black Kaoss              | 2006             | Manson              | 
++----+-----------------------------------------+------------------+---------------------+ 
 5 rows in set (0.00 sec)
 ```
 

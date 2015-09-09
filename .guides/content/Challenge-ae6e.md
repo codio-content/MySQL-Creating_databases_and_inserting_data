@@ -5,7 +5,7 @@
 ### Correct answers:
 
 1. `USE dog_breeds;`
-2. 
+2.
 ```
 CREATE TABLE dog_catalog (
   id INT(4) NOT NULL auto_increment, 

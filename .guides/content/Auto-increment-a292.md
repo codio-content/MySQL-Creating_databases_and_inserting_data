@@ -2,21 +2,21 @@ Our `catalog` table definition specified 4 column names and its datatypes:
 
 1. _id_: Integer max. limit of 8
 2. _name_: Variable character max. limit of 255
-3. _year_: Integer max. limit of 4
+3. *manufacture_year*: Year max. limit of 4
 4. _brand_: Variable character max. limit of 255
 
-You may have noticed that the `INSERT INTO catalog (name,year,brand)` code of the previous section is missing the first column specification: `id`. 
+You may have noticed that the `INSERT INTO catalog (name,manufacture_year,brand)` code of the previous section is missing the first column specification: `id`. 
 
 However, if we do a:
 
 ```
 mysql> SELECT * FROM catalog;
 
-+----+---------------------------+------+-------+
-| id | name                      | year | brand |
-+----+---------------------------+------+-------+
-|  1 | Brian May’s Red Special   | 1963 | NULL  |
-+----+---------------------------+------+-------+
++----+---------------------------+------------------+-------+
+| id | name                      | manufacture_year | brand |
++----+---------------------------+------------------+-------+
+|  1 | Brian May’s Red Special   | 1963            | NULL  |
++----+---------------------------+------------------+-------+
 1 row in set (0.00 sec)
 ```
 

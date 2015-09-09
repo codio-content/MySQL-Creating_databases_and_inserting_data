@@ -14,4 +14,4 @@ They can apply to a column, a whole table, more than one table or an entire sche
 
 ---
 
-Our `catalog` table has _NULL_, _NOT NULL_ and _PRIMARY KEY_ definitions, let's evaluate your understanding in the following challenge.
+Our `catalog` table has _NULL_, _NOT NULL_ and _PRIMARY KEY_ constraint definitions, let's evaluate your understanding in the following challenge.

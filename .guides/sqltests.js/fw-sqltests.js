@@ -58,47 +58,18 @@ function queryDatabaseByType(query){
 	var query = Utils.normalizeQueries(query)[0];
 	return new Promise(function(resolve, reject){
 		connectTo(globalDbName);
-		switch (true) {
-			case (/^SHOW\s+/gi.test(query)):
-				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
-					if (err) {
-						errorLogs.queryDatabaseByType(globalCount);
-					} else {
-				  	resolve(result);
-					}
-				});
-				break;
-			case (/^USE\s+/gi.test(query)):
-				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
-					if (err) {
-						errorLogs.queryDatabaseByType(globalCount);
-					} else {
-				  	resolve(result);
-					}
-				});
-				break;
-			case (/^CREATE\s+/gi.test(query)):
-				Utils.simulateQuery(query, globalDbName, expectedQuery, function(err, result){
-					if (err) {
-						errorLogs.queryDatabaseByType(globalCount);
-					} else {
-				  	resolve(result);
-					}
-				});
-				break;
-			case (/^SELECT\s+/gi.test(query)):
-				connection.query(query, function(err, rows, fields) {
-				  if (err) {
-				  	errorLogs.queryDatabaseByType(globalCount);
-				  } else {
-				  	var output = Utils.sortResult(rows);
-				  	resolve(output);
-				  }
-				});
-				break;
-			default:
-				errorLogs.unknownQuery(globalCount);
-		}
+		connection.query(query, function(err, rows, fields) {
+		  if (err) {
+		  	var output = Utils.sortResult(err);
+	  		resolve(output);
+		  } else {
+		  	if (rows.insertId) {
+		  		rows.insertId = 1;
+		  	}
+	  		var output = Utils.sortResult(rows);
+	  		resolve(output);
+		  }
+		});
 		connection.end();
 	});
 }
@@ -113,6 +84,8 @@ function dbLookup(dbName, tasks, userQueriesArr){
 		var query = userQueriesArr[globalCount-1];
 		queryDatabaseByType(query).then(function(userQuery){
 			userQuery = userQuery;
+			// console.log('expected: ' + expected);
+			// console.log('user: ' + userQuery);
 			if (expected == userQuery) {
 				if (globalCount < tasks.length) {
 					dbLookup(dbName, tasks, userQueriesArr);

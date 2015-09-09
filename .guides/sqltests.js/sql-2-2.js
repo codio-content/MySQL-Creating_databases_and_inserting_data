@@ -12,7 +12,7 @@ var tasks = [
     "USE dog_breeds"
   ],
   [
-    "Create a 'dog_catalog' with the specified columns and datatypes",
+    "Create a 'dog_catalog' table with the specified columns and datatypes",
     "CREATE TABLE dog_catalog (id INT(4) NOT NULL auto_increment, breed VARCHAR(255), region VARCHAR(255), PRIMARY KEY (id)) auto_increment = 1"
   ]
 ];

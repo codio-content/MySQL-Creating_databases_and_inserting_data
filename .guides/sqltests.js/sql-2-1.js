@@ -26,4 +26,4 @@ var tasks = [
  Init test
  sql.testCommands(user source file, database name, tasks array)
 */
-sqltest.testCommands("sql-2-1/sql-2-1.sql", "dog_breeds", tasks);
+sqltest.testCommands("sql-2-1/sql-2-1.sql", "", tasks);

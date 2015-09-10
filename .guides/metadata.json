@@ -389,10 +389,47 @@
   {
    "id": "e4af54d7-7d4c-b5ff-100a-d25e1ccda7f6",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-2-6/sql-2-6.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "sql-2-6"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-e4af.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7abf85d-27bb-36a7-30b0-1aa9b803ea9f",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-2-7/sql-2-7.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "sql-2-7"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-7abf.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

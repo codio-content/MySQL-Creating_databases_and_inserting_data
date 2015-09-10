@@ -16,12 +16,12 @@ CREATE TABLE catalog (
 ) AUTO_INCREMENT=1;
 ```
 
-We've created a `guitar-catalog.sql` file, copy and paste the code above inside the file and:
+We've created a `guitars-catalog.sql` file, copy and paste the code above inside the file and:
 
 ```
 mysql> USE guitars_collection;
 # Database changed
-mysql> source guitar-catalog.sql
+mysql> source guitars-catalog.sql
 # Query OK, 0 rows affected (0.03 sec)
 ```
 --- 

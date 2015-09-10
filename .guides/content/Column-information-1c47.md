@@ -17,3 +17,23 @@ Third, show the `catalog` table columns' information:
 ```
 mysql> SHOW COLUMNS FROM catalog;
 ```
+
+And you should see this:
+
+```
++------------------+--------------+------+-----+---------+----------------+
+| Field            | Type         | Null | Key | Default | Extra          |
++------------------+--------------+------+-----+---------+----------------+
+| id               | int(8)       | NO   | PRI | NULL    | auto_increment |
+| name             | varchar(255) | YES  |     | NULL    |                |
+| manufacture_year | year(4)      | YES  |     | NULL    |                |
+| brand            | varchar(255) | YES  |     | NULL    |                |
++------------------+--------------+------+-----+---------+----------------+
+4 rows in set (0.02 sec)
+```
+
+As a shortcut, you can use the following statement:
+
+```
+mysql> SHOW COLUMNS FROM guitars_collection.catalog;
+```

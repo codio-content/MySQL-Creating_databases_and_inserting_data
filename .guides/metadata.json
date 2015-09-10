@@ -437,7 +437,13 @@
   {
    "id": "d481be6a-802-313f-6546-b5a0e69cf0ff",
    "title": "That's all folks",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks-d481.md",

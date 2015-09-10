@@ -17,7 +17,7 @@ mysql> SHOW DATABASES;
 
 ### Alternate syntax
 
-Databases can also be created with the `CREATE SCHEMA db_name` alternate syntax:
+Databases can also be created with the `CREATE SCHEMA db_name;` alternate syntax:
 
 ```
 mysql> CREATE SCHEMA database_name;

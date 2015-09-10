@@ -17,6 +17,7 @@ Important things to aknowledge about the code above:
 
 - Each `VALUES` row is inside a parenthesis separated by a comma, except for the last one
 - _Varchar_ values are inside double quotes so single quotes (apostrophes) may be used
+- The order of the values to be inserted correspond to the column order 
 
 Source the `collection-2.sql` file:
 
@@ -30,6 +31,9 @@ And display all the current records (notice the _id_ `auto_increment` functional
 
 ```
 mysql> SELECT * FROM catalog;
+```
+And you should see this:
+```
 +----+-----------------------------------------+------------------+---------------------+ 
 | id | name                                    | manufacture_year | brand               | 
 +----+-----------------------------------------+------------------+---------------------+ 

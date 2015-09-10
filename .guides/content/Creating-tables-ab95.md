@@ -26,4 +26,4 @@ mysql> source guitar-catalog.sql
 ```
 --- 
 
-Let's understand the code line by line in the next section.
+Let's expose the `catalog` table column names and dataypes in the next section.

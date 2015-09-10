@@ -6,6 +6,6 @@
 
 1. `CREATE DATABASE dog_breeds;`
 2. `CREATE SCHEMA IF NOT EXISTS dog_breeds;`
-3. `CREATE SCHEMA IF NOT EXISTS dog_breeds CHARACTER SET = utf-8;`
+3. `CREATE SCHEMA IF NOT EXISTS dog_breeds CHARACTER SET = utf8;`
 
 |||

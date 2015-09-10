@@ -2,7 +2,7 @@
 
 The keywords that let us _CREATE_, _DROP_ (remove), _SHOW_ and in general, __manipulate databases and tables__ are commonly associated with the DDL term.
 
-For example, when we created the `guitars_collection` in the previous section, we determined the name of the computer's memory space where our guitar data is going to be stored.
+For example, when we created the `guitars_collection` database or schema in the previous section, we determined the name of the computer's memory space where our guitar data is going to be stored.
 
 The `guitars_collection` database will hold _tables_ which at the same time, are going to be defined with column names with the datatypes that each column must allow to be saved.
 

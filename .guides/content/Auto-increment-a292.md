@@ -12,6 +12,7 @@ However, if we do a:
 ```
 mysql> SELECT * FROM catalog;
 
+# Expected Output:
 +----+---------------------------+------------------+-------+
 | id | name                      | manufacture_year | brand |
 +----+---------------------------+------------------+-------+

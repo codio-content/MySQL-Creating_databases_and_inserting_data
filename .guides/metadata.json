@@ -163,7 +163,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-31-4592.md",
+   "content-file": ".guides/content/Datatypes-4592.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -214,6 +214,17 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-tables-ab95.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "1c47a236-7efb-5e7a-175b-518c6bd149c",
+   "title": "Column information",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-28-1c47.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -326,62 +337,23 @@
    "teacherOnly": false
   },
   {
-   "id": "4f5ac1d4-56ec-16bb-fe44-df781b83e1c5",
-   "title": "Select LIKE operator",
+   "id": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
+   "title": "Final challenges",
    "files": [
     {
-     "path": "#terminal: mysql",
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-2-4/sql-2-4.sql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Select-LIKE-operator-4f5a.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "421e699-ece0-47b0-2ecb-b0f38749480c",
-   "title": "SQL wildcards",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/SQL-wildcards-421e.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "f3a4b55a-cbb3-aace-f08e-6001c89cf571",
-   "title": "Wildcard examples",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Wildcard-examples-f3a4.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "6d47a065-a776-64d4-792a-a7c92fb39f13",
-   "title": "Challenge",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Challenge-6d47.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
-   "title": "Final challenges",
-   "files": [],
-   "layout": "",
-   "path": [],
+   "layout": "2-panels-tree",
+   "path": [
+    "sql-2-4/sql-2-4.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Final-challenges-2162.md",
    "chapter": true,

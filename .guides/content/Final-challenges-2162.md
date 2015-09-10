@@ -7,7 +7,7 @@ This database or _schema_ is going to have a `scientists` table with 5 columns a
 
 |id|name|invention|year_of_birth|year_of_death|
 |----|-----|-----|-----|-----|
-|INT(4) auto increment from 1|VARCHAR(255) can't be NULL|TEXT() can't be NULL|YEAR(4) can't be NULL|YEAR(4) defaults to NULL if the scientist is still alive|
+|INT(4) auto increment from 1|VARCHAR(255) can't be NULL|TEXT can't be NULL|YEAR(4) can't be NULL|YEAR(4) defaults to NULL if the scientist is still alive|
 
 {Check It!|assessment}(test-3787893232)
 

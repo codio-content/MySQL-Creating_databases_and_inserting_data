@@ -15,12 +15,12 @@ VALUES ("Brian May’s Red Special", 1963, DEFAULT);
 Source it: 
 
 ```
-mysql> source catalog.sql
+mysql> source collection.sql
 # Database changed
 # Query OK, 1 row affected (0.01 sec)
 ```
 
-The following list describes the meaning of each of the `catalog.sql` query lines:
+The following list describes the meaning of each of the `collection.sql` query lines:
 
 1. `USE guitars_collection;`:
 Use the database where the `catalog` table is stored

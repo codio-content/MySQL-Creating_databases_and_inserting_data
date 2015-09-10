@@ -1,4 +1,4 @@
-Let's understand the `guitar-catalog.sql` code line by line:
+Let's understand the `guitars-catalog.sql` code line by line:
 
 | Line | Description |
 |------------------------|------|

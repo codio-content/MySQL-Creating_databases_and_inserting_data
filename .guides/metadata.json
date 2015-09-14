@@ -74,7 +74,7 @@
      "action": "close"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/DDL---DML-f1ec.md",
@@ -378,12 +378,16 @@
    "title": "Auto increment",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Auto-increment-a292.md",

@@ -16,8 +16,13 @@ Source it:
 
 ```
 mysql> source collection.sql
-# Database changed
-# Query OK, 1 row affected (0.01 sec)
+```
+
+And you should see this: 
+
+```
+Database changed
+Query OK, 1 row affected (0.01 sec)
 ```
 
 The following list describes the meaning of each of the `collection.sql` query lines:

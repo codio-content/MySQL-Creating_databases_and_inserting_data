@@ -8,7 +8,7 @@ The data type is a label and a guideline for SQL to __understand what type of da
 
 Different databases offer different choices for the data type definition. However, in this SQL unit, we are going to use some of the MySQL datatypes.
 
-Here's the official MySQL docs definition for the MySQL chosen datatypes:
+Here's the official MySQL docs definition for the MySQL datatypes we chose for this unit:
 
 ### Text types
 

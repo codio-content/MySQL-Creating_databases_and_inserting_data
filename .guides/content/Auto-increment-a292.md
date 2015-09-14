@@ -11,8 +11,11 @@ However, if we do a:
 
 ```
 mysql> SELECT * FROM catalog;
+```
 
-# Expected Output:
+By inspecting the output, the `id` column is there:
+
+```
 +----+---------------------------+------------------+-------+
 | id | name                      | manufacture_year | brand |
 +----+---------------------------+------------------+-------+
@@ -20,8 +23,6 @@ mysql> SELECT * FROM catalog;
 +----+---------------------------+------------------+-------+
 1 row in set (0.00 sec)
 ```
-
-The `id` column is there.
 
 This is because when creating our `catalog` table, we specified the `AUTO INCREMENT` behaviour:
 

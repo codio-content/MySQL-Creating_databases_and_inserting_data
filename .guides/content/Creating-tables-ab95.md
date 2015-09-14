@@ -20,9 +20,10 @@ We've created a `guitars-catalog.sql` file, copy and paste the code above inside
 
 ```
 mysql> USE guitars_collection;
-# Database changed
+```
+And source it:
+```
 mysql> source guitars-catalog.sql
-# Query OK, 0 rows affected (0.03 sec)
 ```
 --- 
 

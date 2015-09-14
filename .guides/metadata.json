@@ -3,14 +3,8 @@
   {
    "id": "a02b99c0-bc90-902c-2ec8-f19af90ac3",
    "title": "Recap",
-   "files": [
-    {
-     "path": "#terminal: ",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels-tree",
+   "files": [],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Recap-a02b.md",
@@ -63,7 +57,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-SQL-databases-d873.md",
@@ -74,7 +68,13 @@
   {
    "id": "f1ec7bdf-7660-3f54-4ea9-140a6df0e2a3",
    "title": "DDL & DML",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/DDL---DML-f1ec.md",
@@ -96,8 +96,18 @@
   {
    "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
    "title": "DB creation control",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/DB-creation-control-2a17.md",
@@ -108,7 +118,13 @@
   {
    "id": "28f5d90-9494-6955-a966-cacea71e3aaf",
    "title": "Character sets",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Character-sets-28f5.md",
@@ -148,8 +164,13 @@
   {
    "id": "ac0ff61-5104-ebf3-eab3-bd373c8709",
    "title": "Basic SQL datatypes",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Basic-SQL-datatypes-ac0f.md",
@@ -223,7 +244,18 @@
   {
    "id": "1c47a236-7efb-5e7a-175b-518c6bd149c",
    "title": "Column information",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Column-information-1c47.md",
@@ -234,8 +266,21 @@
   {
    "id": "29829c77-d08d-55a1-a8e-74934c117560",
    "title": "Creating tables",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "guitars-catalog.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "guitars-catalog.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Creating-tables-2982.md",
    "chapter": false,
@@ -245,8 +290,26 @@
   {
    "id": "ae6e483d-e833-cbc9-c63f-a122bf26b2a8",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-2-2/sql-2-2.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "sql-2-2"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-ae6e.md",
    "chapter": false,
@@ -256,8 +319,13 @@
   {
    "id": "2d86659c-5d8e-22f8-f04d-58b49774e43f",
    "title": "SQL constraints",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-constraints-2d86.md",
@@ -290,14 +358,14 @@
      "action": "open"
     },
     {
-     "path": "guitar-catalog-insert.sql",
+     "path": "collection.sql",
      "panel": 0,
      "action": "open"
     }
    ],
    "layout": "2-panels-tree",
    "path": [
-    "guitar-catalog-insert.sql"
+    "collection.sql"
    ],
    "type": "markdown",
    "content-file": ".guides/content/Inserting-values-5d40.md",
@@ -308,7 +376,14 @@
   {
    "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
    "title": "Auto increment",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Auto-increment-a292.md",
@@ -319,8 +394,26 @@
   {
    "id": "f1bdcd92-833d-4ac4-dc53-723b73f77d8f",
    "title": "Inserting more values",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "collection-2.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "collection-2.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Inserting-more-values-f1bd.md",
    "chapter": false,
@@ -330,8 +423,21 @@
   {
    "id": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-2-3/sql-2-3.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "sql-2-3"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-35b6.md",
    "chapter": false,
@@ -354,7 +460,7 @@
    ],
    "layout": "2-panels-tree",
    "path": [
-    "sql-2-4/sql-2-4.sql"
+    "sql-2-4"
    ],
    "type": "markdown",
    "content-file": ".guides/content/Final-challenges-2162.md",

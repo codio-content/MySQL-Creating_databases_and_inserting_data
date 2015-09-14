@@ -6,7 +6,12 @@ Let's create a `guitars_collection` database or schema:
 
 ```
 mysql> CREATE DATABASE guitars_collection;
-# Query OK, 1 row affected (0.00 sec)
+```
+
+You should see this: 
+
+```
+Query OK, 1 row affected (0.00 sec)
 ```
 
 Confirm that the database has been created by executing:
@@ -15,13 +20,11 @@ Confirm that the database has been created by executing:
 mysql> SHOW DATABASES;
 ```
 
+Can you see the `guitars_collection` database listed?
+
 ### Alternate syntax
 
-Databases can also be created with the `CREATE SCHEMA db_name;` alternate syntax:
-
-```
-mysql> CREATE SCHEMA database_name;
-```
+Databases can also be created with the `CREATE SCHEMA db_name;` alternate syntax, where `db_name` is the selected database name.
 
 ---
 

@@ -37,10 +37,10 @@ let SQLkeywords = [
 	'AUTO_INCREMENT',
 	'VALUES'
 ];
-// var workspaceDirectory = '/home/codio/workspace/';
-// workspaceDirectory + '.guides/sqltests.js/';
-var workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
+var workspaceDirectory = '/home/codio/workspace/';
 var sqlDir = workspaceDirectory + '.guides/sqltests.js/';
+// var workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
+// var sqlDir = workspaceDirectory + '.guides/sqltests.js/';
 
 function readChallengeFile(srcFile, expectedQueries){
 	var srcFile = workspaceDirectory + srcFile;

@@ -15,16 +15,14 @@ VALUES
 
 Important things to aknowledge about the code above:
 
-- Each `VALUES` row is inside a parenthesis separated by a comma, except for the last one
+- Each `VALUES` row is inside a parenthesis separated by a comma, except for the last one that finishes the query with a `;`
 - _Varchar_ values are inside double quotes so single quotes (apostrophes) may be used
-- The order of the values to be inserted correspond to the column order 
+- The order of the values to be inserted correspond to the column order
 
 Source the `collection-2.sql` file:
 
 ```
 mysql> source collection-2.sql
-# Query OK, 4 rows affected (0.00 sec)
-# Records: 4  Duplicates: 0  Warnings: 0
 ```
 
 And display all the current records (notice the _id_ `auto_increment` functionality):

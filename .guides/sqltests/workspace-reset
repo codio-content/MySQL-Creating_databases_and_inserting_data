@@ -13,6 +13,7 @@ function init_workspace {
   done
 	> ${WORKSPACE}/collection.sql
 	> ${WORKSPACE}/collection-2.sql
+  > ${WORKSPACE}guitars-catalog.sql
 	echo "Project files have been reseted"
 	sleep 2
 	clear

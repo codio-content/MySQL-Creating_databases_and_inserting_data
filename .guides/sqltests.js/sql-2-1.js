@@ -1,5 +1,5 @@
 var sqltest = require("./fw-sqltests.js");
-var workspace = sqltest.workspaceDirectory;
+
 
 
 /*
@@ -26,4 +26,4 @@ var tasks = [
  Init test
  sql.testCommands(user source file, database name, tasks array)
 */
-sqltest.testCommands("sql-2-1/sql-2-1.sql", "", tasks);
+sqltest.testCommands("sql-2-1/sql-2-1.sql", tasks);

@@ -1,38 +1,58 @@
+'use strict';
 /*
 	SQL Challenges framework
-	Version: 1.1 as of SQL2
-	Expect a result from the database and compare it as a JSON string
+	Version: 2.0 as of SQL2
+	Optimized Regexes
 */
-var mysql = require('mysql');
-var fs = require('fs');
-var errorLogs = require('./fw-errorLogs.js');
-var Utils = require('./fw-utils.js');
-var connection;
-var globalCount = 0;
-var globalDbName = '';
-var queryTypes = {};
-var expectedQuery;
-var placeholder = '';
+var mysql = require('mysql'),
+		fs = require('fs'),
+		errorLogs = require('./fw-errorLogs.js');
+let SQLkeywords = [
+	'CREATE', 
+	'DATABASE', 
+	'SCHEMA', 
+	'TABLE', 
+	'SHOW', 
+	'COLUMNS', 
+	'SELECT', 
+	'INSERT', 
+	'UPDATE', 
+	'DELETE', 
+	'WHERE', 
+	'FROM', 
+	'INTO', 
+	'IF', 
+	'NOT', 
+	'EXISTS', 
+	'CHARACTER', 
+	'SET', 
+	'UTF8',
+	'USE',
+	'INT',
+	'NOT',
+	'NULL',
+	'VARCHAR',
+	'PRIMARY',
+	'KEY',
+	'AUTO_INCREMENT',
+	'VALUES'
+];
+// var workspaceDirectory = '/home/codio/workspace/';
+// workspaceDirectory + '.guides/sqltests.js/';
+var workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
+var sqlDir = workspaceDirectory + '.guides/sqltests.js/';
 
-var sqltest = {};
-sqltest.workspaceDirectory = '/home/codio/workspace/';
-sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
-// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
-// sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
-
-// Init process:
-function readChallengeFile(srcFile, tasks){
-	var srcFile = sqltest.workspaceDirectory + srcFile;
+function readChallengeFile(srcFile, expectedQueries){
+	var srcFile = workspaceDirectory + srcFile;
 	return new Promise(function(resolve, reject){
 		fs.readFile(srcFile, 'utf-8', function (err, data) {
-		  if (err) {
-		  	errorLogs.readChallengeFile('srcFile', srcFile);
-		  };
+		  if (err)
+		  	errorLogs.readChallengeFile('srcFile', srcFile);		  
 		  if (data.length) {
-			  var queries = Utils.normalizeQueries(data);
-			  // Number of tasks equal number of user queries:
-			  if (queries.length != tasks.length) {
-			  	errorLogs.readChallengeFile('length', srcFile, tasks, queries);
+			  var queries = normalizeQueries(data);
+			  // Number of expectedQueries equal number of user queries:
+			  if (queries.length != expectedQueries.length) {
+			  	errorLogs.readChallengeFile('length', srcFile, expectedQueries, queries);
 			  } else {
 			  	resolve(queries);
 			  }
@@ -41,102 +61,35 @@ function readChallengeFile(srcFile, tasks){
 		  }
 		});
 	});
-	errorLogs.readChallengeFile('empty', srcFile);
 }
 
-function connectTo(dbName) {
-	connection = mysql.createConnection({
-	  host     : 'localhost',
-	  user     : '',
-	  // user     : 'root',
-	  // password : 'N3tp0ePl@n',
-	  database : dbName
-	});
-	connection.connect();
+function normalizeQueries(query){
+	var fullQuery, queries;
+	fullQuery = query.replace(/\n/g, ' ');
+  fullQuery = fullQuery.replace(/\s+/g, ' ');
+  queries = fullQuery.match(/((\w+?)[^;]*)/g);
+  return queries;
 }
 
-function dropTable(query) {
-	return new Promise(function(resolve, reject){
-		connectTo(globalDbName);
-		connection.query(query, function(err, rows, fields) {
-			errorLogs.queryDatabaseByType(globalCount);
-		});
-	});
-}
-
-function queryDatabaseByType(query){
-	var query = Utils.normalizeQueries(query)[0];
-	var output;
-	return new Promise(function(resolve, reject){
-		connectTo(globalDbName);
-		connection.query(query, function(err, rows, fields) {
-		  if (err) {
-		  	switch (true) {
-		  		case (err['code'] === 'ER_TABLE_EXISTS_ERROR'):
-				  		if (query.split(' ')[2] === placeholder) {
-					  		output = Utils.sortResult(err);
-					  		resolve(output);
-				  		} else {
-				  			var dropTableName = 'DROP TABLE '+query.split(' ')[2];
-				  			dropTable(dropTableName);
-				  		}
-		  			break;
-		  		default:
-				  	output = Utils.sortResult(err);
-			  		resolve(output);
-		  	}
-		  } else {
-		  	if (rows.insertId) {
-		  		rows.insertId = 1;
-		  	}
-	  		output = Utils.sortResult(rows);
-	  		resolve(output);
-		  }
-		});
-		connection.end();
-	});
-}
-
-function dbLookup(dbName, tasks, userQueriesArr){
-	var userQuery;
-	var task = tasks[globalCount][0];
-	var query = tasks[globalCount][1];
-	expectedQuery = query;
-	globalCount++;
-	queryDatabaseByType(query).then(function(expected){
-		var query = userQueriesArr[globalCount-1];
-		queryDatabaseByType(query).then(function(userQuery){
-			userQuery = userQuery;
-			// console.log('expected: ' + expected);
-			// console.log('user: ' + userQuery);
-			if (expected == userQuery) {
-				if (globalCount < tasks.length) {
-					dbLookup(dbName, tasks, userQueriesArr);
-				} else {
-					console.log('Well done!');
-					process.exit(0);
+exports.testCommands = function(srcFile, tasksArr){
+	var tasks = tasksArr.map(function(item, index){return item[0]});
+	var expectedQueries = tasksArr.map(function(item, index){return item[1]});
+	readChallengeFile(srcFile, expectedQueries).then(function(userQueries){
+		(function(arr1, arr2){
+			var q1, q2;
+			for (var i = 0; i < arr1.length; i++) {
+				q1 = arr1[i];
+				q2 = arr2[i];
+				for (let pattern of SQLkeywords) {
+					var regex = new RegExp(pattern, 'ig');
+					q1 = q1.replace(regex, pattern).replace(/\s+/ig, '');
+					q2 = q2.replace(regex, pattern).replace(/\s+/ig, '');
 				}
-			} else {
-				errorLogs.queryMismatch(globalCount, task);
+				// console.log(q1, q2);
+				if (q1 != q2) errorLogs.queryMismatch(i+1, tasks[i]);
 			}
-		}).catch(function(){
-			console.log('Failed to retrieve userQueries from db');
-			process.exit(1);
-		});
-	}).catch(function(){
-		console.log('Fail to retrieve expectedQueries from db.');
-		process.exit(1);
-	});
-}
-
-sqltest.testCommands = function(srcFile, dbName, tasks, pholder){
-	globalDbName = dbName;
-	placeholder = pholder ? pholder : '';
-	readChallengeFile(srcFile, tasks).then(function(userQueriesArr){
-		dbLookup(dbName, tasks, userQueriesArr);
-	}).catch(function(){
-		errorLogs.readChallengeFile('srcFile', srcFile);
+			console.log('Well done!');
+			process.exit(0);
+		})(expectedQueries, userQueries);
 	});
 };
-
-module.exports = sqltest;

@@ -6,19 +6,19 @@ arg=$1
 COUNT=10
 
 function init_workspace {
+	while (( COUNT > 0 ))
+  do
+    > ${WORKSPACE}/sql-2-$COUNT/sql-2-$COUNT.sql
+    (( COUNT -- ))                                                                                                                                          
+  done
+	> ${WORKSPACE}/collection.sql
+	> ${WORKSPACE}/collection-2.sql
 	echo "Project files have been reseted"
 	sleep 2
 	clear
 }
 
 function reset_workspace {
-  while (( COUNT > 0 ))                                                                                                                                     
-  do                                                                                                                                                        
-    > ${WORKSPACE}/sql-1-$COUNT/sql-1-$COUNT.sql                                                                                                            
-    (( COUNT -- ))                                                                                                                                          
-  done 
-  # > ${WORKSPACE}people-test.sql
-  # echo ' ' > ~/.mysql_history
 	echo "Reseting project files and directories"
 	sleep 2
 	init_workspace

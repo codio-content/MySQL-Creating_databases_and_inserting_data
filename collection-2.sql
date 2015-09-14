@@ -1,5 +1,4 @@
-USE db_guitars_collection;
-
+USE guitars_collection;
 INSERT INTO catalog (name,year,brand) 
 VALUES 
 ("Keith Richards’ Micawber", 1953, "Fender Telecaster"),

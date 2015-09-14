@@ -1,5 +1,5 @@
 var sqltest = require("./fw-sqltests.js");
-var workspace = sqltest.workspaceDirectory;
+
 
 
 /*

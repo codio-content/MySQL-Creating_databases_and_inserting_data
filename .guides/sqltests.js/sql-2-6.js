@@ -1,7 +1,5 @@
 var sqltest = require("./fw-sqltests.js");
 
-
-
 /*
  Challenge tasks
  tasks[{Task description | Expected Query}]
@@ -26,4 +24,9 @@ var tasks = [
  Init test
  sql.testCommands(user source file, database name, tasks array)
 */
-sqltest.testCommands("sql-2-6/sql-2-6.sql", tasks);
+sqltest.testCommands("sql-2-6/sql-2-6.sql", tasks, {
+  dropDb: false,
+  createDb: false,
+  tableName: 'scientists',
+  dbName: 'famous_scientists'
+});

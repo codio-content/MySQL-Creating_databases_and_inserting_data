@@ -1,6 +1,4 @@
-var sqltest = require("./fw-sqltests.js");
-
-
+var sqltest = require("./fw-sqltests.v3.js");
 
 /*
  Challenge tasks
@@ -9,7 +7,7 @@ var sqltest = require("./fw-sqltests.js");
 var tasks = [
   [
     "Use the dog_breeds database",
-    "USE dog_breeds"
+    "USE dog_breeds_copy"
   ],
   [
     "Insert the specified data into the 'dog_catalog' table",
@@ -22,4 +20,7 @@ var tasks = [
  Init test
  sql.testCommands(user source file, database name, tasks array)
 */
-sqltest.testCommands("sql-2-3/sql-2-3.sql", tasks);
+sqltest.testCommands("sql-2-3/sql-2-3.sql", tasks, {
+	dbName: "dog_breeds",
+	tableName: "dog_catalog"
+});

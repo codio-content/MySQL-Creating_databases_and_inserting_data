@@ -37,10 +37,10 @@ let SQLkeywords = [
 	'AUTO_INCREMENT',
 	'VALUES'
 ];
-var workspaceDirectory = '/home/codio/workspace/';
-var sqlDir = workspaceDirectory + '.guides/sqltests.js/';
-// var workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
+// var workspaceDirectory = '/home/codio/workspace/';
 // var sqlDir = workspaceDirectory + '.guides/sqltests.js/';
+var workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
+var sqlDir = workspaceDirectory + '.guides/sqltests.js/';
 
 function readChallengeFile(srcFile, expectedQueries){
 	var srcFile = workspaceDirectory + srcFile;
@@ -85,7 +85,7 @@ exports.testCommands = function(srcFile, tasksArr){
 					q1 = q1.replace(regex, pattern).replace(/\s+/ig, '');
 					q2 = q2.replace(regex, pattern).replace(/\s+/ig, '');
 				}
-				// console.log(q1, q2);
+				console.log(q1, q2);
 				if (q1 != q2) errorLogs.queryMismatch(i+1, tasks[i]);
 			}
 			console.log('Well done!');

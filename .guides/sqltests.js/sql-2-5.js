@@ -1,4 +1,4 @@
-var sqltest = require("./fw-sqltests.js");
+var sqltest = require("./fw-sqltests.v3.js");
 
 
 
@@ -9,7 +9,7 @@ var sqltest = require("./fw-sqltests.js");
 var tasks = [
   [
     "Use the famous_scientists database",
-    "USE famous_scientists"
+    "USE famous_scientists_copy"
   ],
   [
     "Create a scientists table with the specified features",
@@ -22,4 +22,8 @@ var tasks = [
  Init test
  sql.testCommands(user source file, database name, tasks array)
 */
-sqltest.testCommands("sql-2-5/sql-2-5.sql", tasks);
+sqltest.testCommands("sql-2-5/sql-2-5.sql", tasks, {
+	dbName: "famous_scientists",
+	createDb: true,
+	tableName: "scientists"
+});

@@ -3,14 +3,12 @@
 |||guidance
 ### Correct answers:
 
-1. `USE dog_breeds;`
-2.
+`USE dog_breeds;`
+
 ```
 INSERT INTO dog_catalog (breed, region)
 VALUES
-("English Sheepdog", "England"),
-("Tibetan Mastiff", "Asia"),
-("Labrador", "Canada");
+("English Sheepdog", "England");
 ```
 
 

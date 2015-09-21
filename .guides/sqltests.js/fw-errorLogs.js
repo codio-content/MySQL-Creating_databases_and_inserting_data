@@ -32,8 +32,8 @@ exports.readChallengeFile = function(reason, srcFile, tasks, queries){
 	}
 }
 exports.queryMismatch = function(globalCount, task){
-	console.log(`[Error   ]: Task ${globalCount}. Expected: ${task}`);
-	console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
+	console.log(`[Error   ]: Task ${globalCount}. Expected: ${task}. Try again.`);
+	// console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }
 exports.unknownQuery = function(globalCount){

@@ -3,8 +3,6 @@
 |||guidance
 ### Correct answers:
 
-1. `USE famous_scientists;`
-2.
 ```
 CREATE TABLE scientists (
   id INT(4) NOT NULL auto_increment,

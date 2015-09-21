@@ -4,8 +4,8 @@
 |||guidance
 ### Correct answers:
 
-1. `USE dog_breeds;`
-2.
+`CREATE DATABASE IF NOT EXISTS dog_breeds;`
+
 ```
 CREATE TABLE dog_catalog (
   id INT(4) NOT NULL auto_increment, 

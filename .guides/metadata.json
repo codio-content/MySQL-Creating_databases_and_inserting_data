@@ -141,17 +141,12 @@
      "action": "close"
     },
     {
-     "path": "sql-2-1/sql-2-1.sql",
-     "panel": 0,
-     "action": "open"
-    },
-    {
      "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "sql-2-1"
    ],
@@ -231,7 +226,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "guitars-catalog.sql"
    ],
@@ -270,14 +265,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "guitars-catalog.sql",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "1-panel",
    "path": [
     "guitars-catalog.sql"
    ],
@@ -296,17 +286,12 @@
      "action": "close"
     },
     {
-     "path": "sql-2-2/sql-2-2.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
      "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "sql-2-2"
    ],
@@ -363,7 +348,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "collection.sql"
    ],
@@ -414,7 +399,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "collection-2.sql"
    ],
@@ -433,12 +418,12 @@
      "action": "close"
     },
     {
-     "path": "sql-2-3/sql-2-3.sql",
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "sql-2-3"
    ],
@@ -457,12 +442,12 @@
      "action": "close"
     },
     {
-     "path": "sql-2-4/sql-2-4.sql",
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "sql-2-4"
    ],
@@ -481,12 +466,12 @@
      "action": "close"
     },
     {
-     "path": "sql-2-5/sql-2-5.sql",
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "sql-2-5"
    ],
@@ -505,41 +490,17 @@
      "action": "close"
     },
     {
-     "path": "sql-2-6/sql-2-6.sql",
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "sql-2-6"
    ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-e4af.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "7abf85d-27bb-36a7-30b0-1aa9b803ea9f",
-   "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "sql-2-7/sql-2-7.sql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels-tree",
-   "path": [
-    "sql-2-7"
-   ],
-   "type": "markdown",
-   "content-file": ".guides/content/Challenge-7abf.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

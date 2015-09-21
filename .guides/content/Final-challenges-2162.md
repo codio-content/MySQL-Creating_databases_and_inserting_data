@@ -12,10 +12,8 @@ This database or _schema_ is going to have a `scientists` table with 5 columns a
 {Check It!|assessment}(test-3787893232)
 
 |||guidance
-### Correct answers:
+### Correct answer:
 
-1. `SHOW DATABASES;`
-2. `CREATE SCHEMA famous_scientists;`
-3. `CREATE DATABASE IF NOT EXISTS famous_scientists;`
+`CREATE SCHEMA famous_scientists;`
 
 |||

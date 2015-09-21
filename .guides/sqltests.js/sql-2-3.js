@@ -1,25 +1,14 @@
 var sqltest = require("./fw-sqltests.js");
 
-
-
 /*
  Challenge tasks
  tasks[{Task description | Expected Query}]
 */
 var tasks = [
   [
-    "Use the dog_breeds database",
-    "USE dog_breeds"
-  ],
-  [
     "Insert the specified data into the 'dog_catalog' table",
-    'INSERT INTO dog_catalog (breed, region) VALUES ("English Sheepdog", "England"), ("Tibetan Mastiff", "Asia"), ("Labrador", "Canada")'
+    "select id,breed,region from dog_breeds.dog_catalog where id between 1 AND 3 AND breed = 'English Sheepdog' AND region = 'England'"
   ]
 ];
 
-
-/*
- Init test
- sql.testCommands(user source file, database name, tasks array)
-*/
-sqltest.testCommands("sql-2-3/sql-2-3.sql", tasks);
+sqltest.init(tasks, 'dog_breeds');

@@ -25,6 +25,11 @@ And source it:
 ```
 mysql> source guitars-catalog.sql
 ```
+
+|||info
+### I closed the file by mistake
+Don't worry, you can open the file again just by going back or forth 1 section and get to the current section again.
+|||
 --- 
 
 Let's expose the `catalog` table column names and dataypes in the next section.

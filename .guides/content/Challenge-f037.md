@@ -1,5 +1,7 @@
 {Check It!|assessment}(test-3260325949)
 
+Finally, the third challenge will ask you to insert data into the `scientists` table.
+
 |||guidance
 ### Correct answers:
 

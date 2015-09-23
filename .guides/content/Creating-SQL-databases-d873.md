@@ -2,7 +2,7 @@ SQL databases are sometimes called __schemas__.
 
 A database or _schema_ can be created inside a `mysql` shell with the `CREATE DATABASE database_name` syntax.
 
-Let's create a `guitars_collection` database or schema:
+Let’s create a `guitars_collection` database or schema by entering:
 
 ```
 mysql> CREATE DATABASE guitars_collection;
@@ -28,6 +28,6 @@ Databases can also be created with the `CREATE SCHEMA db_name;` alternate syntax
 
 ---
 
-The keywords that let us _CREATE_, _DROP_ (remove), _SHOW_ and in general, __manipulate databases or schemas__ are commonly associated with the DDL term.
+The keywords that let us _CREATE_, _DROP_ (remove), _SHOW_ and in general, __manipulate databases or schemas__ are commonly associated with the DDL (Data Definition Language) term.
 
 Let's extend our _DDL_ knowledge in the next section.

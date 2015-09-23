@@ -31,7 +31,7 @@ The following list describes the meaning of each of the `collection.sql` query l
 1. `USE guitars_collection;`:
 Use the database where the `catalog` table is stored
 2. `INSERT INTO catalog (name,manufacture_year,brand)`:
-Insert data into the `catalog` table specifying the column names as well as its appropiate order as defined in the table creation
+Insert data into the `catalog` table specifying the column names as well as its appropriate order as defined in the table creation
 3. `VALUES ("Brian May’s Red Special", 1963, DEFAULT);`:
 Define the values to be inserted into the table. Values must match the pre-defined datatype and the order. In this case, the third value _defaults_ to _NULL_ as defined in the table creation. This is because this specific guitar has no brand as it is a custom guitar
 

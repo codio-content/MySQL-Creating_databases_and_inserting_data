@@ -2,7 +2,7 @@ A character set is a group of characters that correspond to a specific language.
 
 For example, the english language has its own character set consisting of lowercase and uppercase vowels and consonants, arabic numbers from 0 to 9 and some symbols like the ones on your keyboard.
 
-Latin characters for example, often include vowels with a stress such as _á_, _é_ and so on.
+Latin characters for example, often include vowels with an accent such as á, é and so on.
 
 ### Configuring database character sets
 

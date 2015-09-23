@@ -1,4 +1,4 @@
-Let's have the `catalog` table as a reference (row cells represent datatypes):
+Let's have the `catalog` columns and datatypes table as a reference:
 
 | id | name | manufacture_year | brand |
 |----|------|------|-------|
@@ -8,15 +8,21 @@ The SQL representation of the table above would be:
 
 ```
 CREATE TABLE catalog ( 
-	id INT(8) NOT NULL auto_increment,
+	id INT(8) UNSIGNED NOT NULL auto_increment,
 	name VARCHAR(255) default NULL,
 	manufacture_year YEAR(4) default NULL,
 	brand VARCHAR(255) default NULL,
 	PRIMARY KEY (id)
 ) AUTO_INCREMENT=1;
 ```
+<small>We will cover the `PRIMARY KEY` constraint in future sections.</small>
 
-We've created a `guitars-catalog.sql` file, copy and paste the code above inside the file and:
+A `guitars-catalog.sql` was created and opened for you:
+
+1. Click on the file (in the left pane)
+2. Copy the code above inside the file
+3. Paste the code in the file
+4. Switch to the terminal pane and execute:
 
 ```
 mysql> USE guitars_collection;

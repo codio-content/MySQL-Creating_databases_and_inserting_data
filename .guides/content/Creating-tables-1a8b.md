@@ -8,7 +8,9 @@ When creating tables, this is exactly what we need to specify:
 
 - The name of our table
 - The name of our columns
-- What kind of data should the tables store, otherwise reject the _INSERT_ query
+- What kind of data should the tables store
+
+The aforementioned specifications are important in the way that any data `INSERT` attempt that does not comply with each column configuration will be rejected.
 
 ### The _guitars collection_ database table
 

@@ -6,20 +6,20 @@ var errorMessages = [
 ];
 
 exports.queryDatabase = function(globalCount){
-	console.log(`[Error   ]: Task ${globalCount}. Your SQL query has syntax errors`);
-	console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
+	console.log(`[Error]: Task ${globalCount}. Your SQL query has syntax errors`);
+	// console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }
 exports.readChallengeFile = function(reason, srcFile, tasks, queries){
 	switch (true) {
 		case (reason == 'empty'):
 			console.log(`Fail to retrieve queries from ${srcFile} file. File is empty.`);
-			console.log('Did you forget to save it?');
+			// console.log('Did you forget to save it?');
       process.exit(1);
 			break;
 		case (reason == 'srcFile'):
 			console.log(`Fail to retrieve queries from ${srcFile} file.`);
-	  	console.log('Does the name match the file in your file tree?');
+	  	// console.log('Does the name match the file in your file tree?');
 	  	process.exit(1);
 	  	break;
 	  case (reason == 'length'):
@@ -32,11 +32,15 @@ exports.readChallengeFile = function(reason, srcFile, tasks, queries){
 	}
 }
 exports.queryMismatch = function(globalCount, task){
-	console.log(`[Error   ]: Task ${globalCount}. Expected: ${task}. Try again.`);
+	console.log(`[Error]: Task ${globalCount}. Expected: ${task}. Try again.`);
 	// console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }
 exports.unknownQuery = function(globalCount){
-	console.log(`[Error   ]: Task ${globalCount}. Query matches no SQL keyword`);
+	console.log(`[Error]: Task ${globalCount}. Query matches no SQL keyword`);
 	process.exit(1);
+}
+
+exports.reset = function(globalCount, task){
+	console.log(`[Error]: Task ${globalCount}. Expected: ${task}. Try again.`);
 }

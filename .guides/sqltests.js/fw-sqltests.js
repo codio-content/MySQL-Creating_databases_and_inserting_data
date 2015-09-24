@@ -52,25 +52,22 @@ function test(){
 
 
 // Reset environment
-var resetCount = 0;
 function reset(){
-	if (resetCount < resetArr.length) {
-		var query = resetArr[resetCount];
+	if (count < tasksArr.length) {
+		var query = tasksArr[count][1];
 		return new Promise(function(resolve, reject){
 			connectTo(db);
 			connection.query(query, function(err, rows, fields) {
-				console.log(query);
 				if (err)
-					console.log(err);
-				resetCount++;
+					errorLogs.reset(count+1, tasksArr[count][0]);
+				// console.log(rows);
+				count++;
 				reset();
 			});
 		});
 	} else {
-		console.log(count);
-		console.log(tasksArr[count]);
-		errorLogs.queryMismatch(count+1, tasksArr[count][0]);
-		resolve();
+		console.log('Unit reset complete.');
+		process.exit(0);
 	}
 }
 
@@ -80,4 +77,9 @@ function reset(){
 exports.init = function(tasks, dbName) {
 	tasksArr = tasks, db = dbName;
 	test();
+}
+
+exports.reset = function(tasks, dbName) {
+	tasksArr = tasks, db = dbName;
+	reset();
 }

@@ -7,6 +7,8 @@ Let's have the `catalog` columns and datatypes table as a reference:
 The SQL representation of the table above would be:
 
 ```
+CREATE DATABASE IF NOT EXISTS guitars_collection;
+
 CREATE TABLE catalog ( 
 	id INT(8) UNSIGNED NOT NULL auto_increment,
 	name VARCHAR(255) default NULL,

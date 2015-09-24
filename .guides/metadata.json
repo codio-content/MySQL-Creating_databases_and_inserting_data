@@ -25,6 +25,23 @@
    "teacherOnly": false
   },
   {
+   "id": "b515a10e-39d5-43d5-736f-65bbcdc5047",
+   "title": "Resetting the unit’s databases",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Unit-reset-b515.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "cb92987f-7893-2b1e-dc10-fabc61528237",
    "title": "CRUD",
    "files": [],

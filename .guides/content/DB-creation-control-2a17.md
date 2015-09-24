@@ -27,6 +27,4 @@ ERROR 1007 (HY000): Can't create database 'guitars_collection'; database exists
 ```
 
 ---
-SQL datatypes correspond to specific _character sets_ determined when a SQL database is created. 
-
-Learn more in the next section.
+Complete a challenge in the next section.

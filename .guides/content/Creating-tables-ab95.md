@@ -15,7 +15,8 @@ CREATE TABLE catalog (
 	PRIMARY KEY (id)
 ) AUTO_INCREMENT=1;
 ```
-<small>We will cover the `PRIMARY KEY` constraint in future sections.</small>
+
+We will cover the `PRIMARY KEY` constraint in future sections.
 
 A `guitars-catalog.sql` was created and opened for you:
 

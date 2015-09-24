@@ -116,23 +116,6 @@
    "teacherOnly": false
   },
   {
-   "id": "28f5d90-9494-6955-a966-cacea71e3aaf",
-   "title": "Character sets",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Character-sets-28f5.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
    "id": "edf3d2e0-1db6-c238-cc3c-5f36e564329",
    "title": "Challenge",
    "files": [

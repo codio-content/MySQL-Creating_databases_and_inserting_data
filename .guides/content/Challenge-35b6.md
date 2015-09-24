@@ -4,9 +4,7 @@
 ### Correct answers:
 
 ```
-INSERT INTO dog_catalog (breed, region)
-VALUES
-("English Sheepdog", "England");
+INSERT INTO dog_catalog (breed, region) VALUES ("English Sheepdog", "England");
 ```
 
 |||

@@ -1,5 +1,11 @@
 {Check It!|assessment}(test-2627637445)
 
+---
+
+{Reset Challenge Database}(node .guides/sqltests.js/fw-sql-reset-dog-breeds.js)
+
+---
+
 
 |||guidance
 ### Correct answers:

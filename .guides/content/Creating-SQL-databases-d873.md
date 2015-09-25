@@ -28,6 +28,10 @@ Databases can also be created with the `CREATE SCHEMA db_name;` alternate syntax
 
 ---
 
+{Reset Section Database}(node .guides/sqltests.js/fw-sql-reset-guitar-collection.js)
+
+---
+
 The keywords that let us _CREATE_, _DROP_ (remove), _SHOW_ and in general, __manipulate databases or schemas__ are commonly associated with the DDL (Data Definition Language) term.
 
 Let's extend our _DDL_ knowledge in the next section.

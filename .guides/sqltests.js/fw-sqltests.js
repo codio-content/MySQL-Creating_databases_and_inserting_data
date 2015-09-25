@@ -65,7 +65,7 @@ function reset(){
 			});
 		});
 	} else {
-		console.log('Unit reset complete.');
+		console.log('Section database reset completed.');
 		process.exit(0);
 	}
 }

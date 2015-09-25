@@ -16,6 +16,12 @@ The database or _schema_ is going to have a `scientists` table with 5 columns an
 
 In the next section, you'll create the table for the scientists data.
 
+---
+
+{Reset Challenge Database}(node .guides/sqltests.js/fw-sql-reset-famous-scientists.js)
+
+---
+
 |||guidance
 ### Correct answer:
 

@@ -1,3 +1,11 @@
+|||info
+### Reset challenge database
+If you make a mistake while editing the database in this section or just want to reset the database back to its original state, return to this page and click the “Reset Section Database” button below.
+
+{Reset Challenge Database}(node .guides/sqltests.js/fw-sql-reset-famous-scientists.js)
+|||
+---
+
 _If I have seen further, it is by standing on the shoulders of giants. 
 (Bernard of Chartres)._
 
@@ -15,12 +23,6 @@ The database or _schema_ is going to have a `scientists` table with 5 columns an
 {Check It!|assessment}(test-3787893232)
 
 In the next section, you'll create the table for the scientists data.
-
----
-
-{Reset Challenge Database}(node .guides/sqltests.js/fw-sql-reset-famous-scientists.js)
-
----
 
 |||guidance
 ### Correct answer:

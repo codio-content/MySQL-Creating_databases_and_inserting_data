@@ -41,6 +41,12 @@ exports.unknownQuery = function(globalCount){
 	process.exit(1);
 }
 
-exports.reset = function(globalCount, task){
-	console.log(`[Error]: Task ${globalCount}. Expected: ${task}. Try again.`);
+exports.reset = function(task){
+	console.log(`[Reset OK]: ${task}.`);
+  process.exit(0);
+}
+
+exports.resetFailed = function(task){
+	console.log(`[Error]: Sorry, something went wrong while resetting this section database.`);
+  process.exit(1);
 }

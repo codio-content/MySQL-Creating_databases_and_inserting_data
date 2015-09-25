@@ -6,7 +6,7 @@ var sqltest = require("./fw-sqltests.js");
 */
 var tasks = [
   [
-    "Reset unit databases",
+    "'guitars_collection' database",
     "DROP DATABASE IF EXISTS guitars_collection"
   ]
 ];

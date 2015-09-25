@@ -58,15 +58,14 @@ function reset(){
 			connectTo(db);
 			connection.query(query, function(err, rows, fields) {
 				if (err)
-					errorLogs.reset(count+1, tasksArr[count][0]);
+					errorLogs.resetFailed(tasksArr[count][0]);
 				// console.log(rows);
 				count++;
 				reset();
 			});
 		});
 	} else {
-		console.log('Section database reset completed.');
-		process.exit(0);
+		errorLogs.reset(tasksArr[count-1][0]);
 	}
 }
 

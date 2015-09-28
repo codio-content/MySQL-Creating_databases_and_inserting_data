@@ -16,7 +16,7 @@ VALUES ("Brian May’s Red Special", 1963, DEFAULT);
 Source it: 
 
 ```
-mysql> source collection.sql
+mysql> source collection.sql;
 ```
 
 And you should see this: 

@@ -22,7 +22,7 @@ Important things to aknowledge about the code above:
 Source the `collection-2.sql` file:
 
 ```
-mysql> source collection-2.sql
+mysql> source collection-2.sql;
 ```
 
 And display all the current records (notice the _id_ `auto_increment` functionality):

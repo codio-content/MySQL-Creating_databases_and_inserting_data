@@ -36,7 +36,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Unit-reset-b515.md",
+   "content-file": ".guides/content/Resetting-the-unit-s-databases-b515.md",
    "chapter": true,
    "reset": [],
    "teacherOnly": false
@@ -216,12 +216,12 @@
      "action": "close"
     },
     {
-     "path": "guitars-catalog.sql",
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#terminal: mysql",
+     "path": "guitars-catalog.sql",
      "panel": 0,
      "action": "open"
     }
@@ -237,20 +237,22 @@
    "teacherOnly": false
   },
   {
+   "id": "15ff6a29-d9ab-66ae-eea6-b936cd2316b",
+   "title": "Multi-line statements",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Multi-line-statements-15ff.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "1c47a236-7efb-5e7a-175b-518c6bd149c",
    "title": "Column information",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Column-information-1c47.md",
@@ -361,18 +363,8 @@
   {
    "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
    "title": "Auto increment",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Auto-increment-a292.md",
@@ -385,21 +377,12 @@
    "title": "Inserting more values",
    "files": [
     {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
      "path": "collection-2.sql",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "",
    "path": [
     "collection-2.sql"
    ],
@@ -460,18 +443,8 @@
   {
    "id": "f037543-b8eb-d73c-16a7-a0f947395cc7",
    "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [
     "sql-2-5"
    ],
@@ -484,18 +457,8 @@
   {
    "id": "e4af54d7-7d4c-b5ff-100a-d25e1ccda7f6",
    "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [
     "sql-2-6"
    ],

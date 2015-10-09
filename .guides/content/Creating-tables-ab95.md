@@ -41,4 +41,6 @@ Don't worry, you can open the file again just by going back or forth 1 section a
 |||
 --- 
 
-Let's expose the `catalog` table column names and dataypes in the next section.
+It is possible to write the same code that we pasted in the `guitars-catalog.sql` directly into the terminal. 
+
+Go to the next section to learn this.

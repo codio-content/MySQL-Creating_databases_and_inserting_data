@@ -5,7 +5,7 @@ As part of the SQL _data manipulation language_ (DDL), the `INSERT` SQL keyword 
 Table data is represented as rows and each of the row fields must match the datatype specified for each column when we created our `catalog` table.
 
 Let's insert 1 row into our `catalog` table. 
-Paste the following code in the `collection.sql` file we opened for you:
+Paste the following code in the `collection.sql` file we opened for you (you can also write it as a multi-line statement in the `mysql>` command line):
 
 ```
 USE guitars_collection;

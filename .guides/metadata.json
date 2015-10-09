@@ -239,8 +239,18 @@
   {
    "id": "15ff6a29-d9ab-66ae-eea6-b936cd2316b",
    "title": "Multi-line statements",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Multi-line-statements-15ff.md",
@@ -363,8 +373,13 @@
   {
    "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
    "title": "Auto increment",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Auto-increment-a292.md",
@@ -377,12 +392,21 @@
    "title": "Inserting more values",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "collection-2.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [
     "collection-2.sql"
    ],
@@ -396,10 +420,6 @@
    "id": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
    "title": "Challenge",
    "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
     {
      "path": "#terminal: mysql",
      "panel": 0,

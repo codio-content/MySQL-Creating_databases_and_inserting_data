@@ -1,17 +1,13 @@
 Our `catalog` table definition specified 4 column names and its datatypes: 
 
-1. _id_: Integer max. limit of 8
-2. _name_: Variable character max. limit of 255
-3. *manufacture_year*: Year max. limit of 4
-4. _brand_: Variable character max. limit of 255
+1. `id`: Integer max. limit of 8
+2. `name`: Variable character max. limit of 255
+3. `manufacture_year`: Year max. limit of 4
+4. `brand`: Variable character max. limit of 255
 
 You may have noticed that the `INSERT INTO catalog (name,manufacture_year,brand)` code of the previous section is missing the first column specification: `id`. 
 
-However, if we do a:
-
-```
-mysql> SELECT * FROM catalog;
-```
+However, if we do a `SELECT * FROM catalog;`
 
 By inspecting the output, the `id` column is there:
 

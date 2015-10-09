@@ -16,7 +16,7 @@ VALUES
 Important things to aknowledge about the code above:
 
 - Each `VALUES` row is inside a parenthesis separated by a comma, except for the last one that finishes the query with a `;`
-- _Varchar_ values are inside double quotes so single quotes (apostrophes) may be used
+- `VARCHAR` values are inside double quotes so single quotes (apostrophes) may be used
 - The order of the values to be inserted correspond to the column order
 
 Source the `collection-2.sql` file:

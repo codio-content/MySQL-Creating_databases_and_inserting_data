@@ -7,15 +7,23 @@ Finally, the third challenge will ask you to insert data into the `scientists` t
 
 `USE famous_scientists;`
 
+Single line statement:
+
 ```
-CREATE TABLE scientists (
-  id INT(4) NOT NULL auto_increment, 
-  name VARCHAR(255) NOT NULL, 
-  discovery TEXT NOT NULL, 
-  year_of_birth INT(4) NOT NULL, 
-  year_of_death INT(4) DEFAULT NULL, 
-  PRIMARY KEY (id)
-) auto_increment = 1;
+CREATE TABLE scientists (id INT(4) NOT NULL auto_increment, name VARCHAR(255) NOT NULL, discovery TEXT NOT NULL, year_of_birth INT(4) NOT NULL, year_of_death INT(4) DEFAULT NULL, PRIMARY KEY (id)) auto_increment = 1;
+```
+
+Multi-line statement:
+
+```
+mysql> CREATE TABLE scientists (
+    -> id INT(4) NOT NULL auto_increment, 
+    -> name VARCHAR(255) NOT NULL, 
+    -> discovery TEXT NOT NULL, 
+    -> year_of_birth INT(4) NOT NULL, 
+    -> year_of_death INT(4) DEFAULT NULL, 
+    -> PRIMARY KEY (id)
+    -> ) auto_increment = 1;
 ```
 
 |||

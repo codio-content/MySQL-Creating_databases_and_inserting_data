@@ -421,6 +421,10 @@
    "title": "Challenge",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"

@@ -1,10 +1,10 @@
 
-# MySQL Creating
+# MySQL Introduction
 
 To contribute to this Codio Project you should be familiar with [Git](https://git-scm.com/docs) and the [GitHub workflow](https://guides.github.com/introduction/flow/):
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this Git repo.
-1. Create a new project using the project's [Codio Stack](https://codio.com/home/stacks/7f36b3ca-6d59-4245-95f6-36c7d4a9eff6/?tab=details).
+1. Create a new project using the project's [Codio Stack](https://codio.com/home/stacks/5981b5c1-1685-4634-8d91-b3655ad703b2/?tab=details).
 1. Clone your forked Git repo into your new Codio project.
 1. Make your code edits.
 1. Commit your edits to your Git repo.
@@ -14,13 +14,13 @@ To contribute to this Codio Project you should be familiar with [Git](https://gi
 
 ## Table of Contents for Git Projects
 
-1. Playground
-1. Introduction
-1. Creating
-1. Updating
-1. Deleting 
-1. Constraints
-1. Aggregation 
+1. MySQL-Playground
+1. MySQL-What_is_a_database
+1. MySQL-Creating_databases_and_inserting_data
+1. MySQL-Altering_existing_databases_and_updating_data
+1. MySQL-Deleting_databases-_dropping_tables_and_deleting_data
+1. MySQL-Constraints_and_Keys
+1. MySQL-Aggregate_functions
 
 ## Table of Contents for Codio Units
 

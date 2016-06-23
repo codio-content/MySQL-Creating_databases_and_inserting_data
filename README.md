@@ -1,38 +1,15 @@
+**Learn how to create your own databases, tables and how to insert data into tables.**
 
-# MySQL Introduction
 
-To contribute to this Codio Project you should be familiar with [Git](https://git-scm.com/docs) and the [GitHub workflow](https://guides.github.com/introduction/flow/):
+- The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-Creating_databases_and_inserting_data).
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this Git repo.
-1. Create a new project using the project's [Codio Stack](https://codio.com/home/stacks/5981b5c1-1685-4634-8d91-b3655ad703b2/?tab=details).
-1. Clone your forked Git repo into your new Codio project.
-1. Make your code edits.
-1. Commit your edits to your Git repo.
-1. Merge any updates from the original Codio repo's `master` branch if there are any.
-1. Send a [pull request](https://help.github.com/articles/using-pull-requests/) to the original Codio repo's `pull-requests` branch.
-1. We will review your edits and either accept them or provide feedback. :)
+- For more information on other units in the MySQL course go to [Course-:-MySQL](https://github.com/codio-content/Information/wiki/Course-:-MySQL)
 
-## Table of Contents for Git Projects
+- More information on other Codio Courses, how you can collaborate and other useful information can be found in our [Information Wiki](https://github.com/codio-content/Information/wiki).
 
-1. MySQL-Playground
-1. MySQL-What_is_a_database
-1. MySQL-Creating_databases_and_inserting_data
-1. MySQL-Altering_existing_databases_and_updating_data
-1. MySQL-Deleting_databases-_dropping_tables_and_deleting_data
-1. MySQL-Constraints_and_Keys
-1. MySQL-Aggregate_functions
 
-## Table of Contents for Codio Units
 
-1. Personal Playground (not a tutorial)
-1. What is a database
-1. Creating databases and inserting data
-1. Altering existing databases and updating data
-1. Deleting databases, dropping tables and deleting data 
-1. Constraints and Keys
-1. Aggregate functions 
-
-## License
+**License**
 
 The MIT License (MIT)
 

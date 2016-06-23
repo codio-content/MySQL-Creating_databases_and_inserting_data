@@ -1,0 +1,276 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2134407198",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "answer": "A constraint is usually associated with a table and they __define certain properties that data in a database must comply with.__",
+     "correct": true,
+     "_id": "55f06022baf9230971dad262"
+    },
+    {
+     "correct": true,
+     "answer": "This is a correct example of a SQL _primary key_ constraint definition:\r\n`CREATE TABLE table_name (id INT(4), PRIMARY KEY (id));`",
+     "_id": "55f06022baf9230971dad261"
+    },
+    {
+     "answer": "The following example represents a correct NOT NULL definition: \r\n`CREATE TABLE table_name (id INT(4) NOT NULL default NULL);`",
+     "correct": false,
+     "_id": "55f06022baf9230971dad260"
+    },
+    {
+     "answer": "A field with a `NULL` value is a field with no value.",
+     "correct": true,
+     "_id": "55f06022baf9230971dad25f"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "SQL Constraints",
+   "instructions": "Please select all of the possible correct answers and _Check it!_ to have your answer assessed. If you are wrong, you will see the correct answer highlighted:\n\n__What is true about SQL constraints?__",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": true
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3401967398",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "answer": "CREATE TABLE table_name;",
+     "correct": false,
+     "_id": "55ef1a0968df2b4158906b45"
+    },
+    {
+     "answer": "SHOW DATABASES;",
+     "correct": false,
+     "_id": "55ef1a0968df2b4158906b44"
+    },
+    {
+     "correct": true,
+     "answer": "SELECT * FROM table_name;",
+     "_id": "55ef1a0968df2b4158906b43"
+    },
+    {
+     "answer": "CREATE SCHEMA IF NOT EXISTS schema_name;",
+     "correct": false,
+     "_id": "55ef1a0968df2b4158906b42"
+    },
+    {
+     "correct": true,
+     "answer": "SELECT id,name FROM names WHERE id > 7;",
+     "_id": "55ef1a0968df2b4158906b41"
+    },
+    {
+     "correct": true,
+     "answer": "INSERT INTO table_name (column_name) VALUES (\"Value\");",
+     "_id": "55ef1a0968df2b4158906b40"
+    },
+    {
+     "answer": "DROP DATABASE IF EXISTS db_name;",
+     "correct": false,
+     "_id": "55ef1a0968df2b4158906b3f"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "DDL & DML",
+   "instructions": "Please select all of the possible correct answers and _Check it!_ to have your answer assessed. If you are wrong, you will see the correct answer highlighted:\n\n__Which are examples of statements that correspond to the SQL DML?__",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": true
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3967478895",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "answer": "Create, Refresh, Update and Delete",
+     "correct": false,
+     "_id": "55ef0c5a03b4b74b4e77f242"
+    },
+    {
+     "correct": true,
+     "answer": "Create, Read, Update and Delete",
+     "_id": "55ef0c5a03b4b74b4e77f241"
+    },
+    {
+     "answer": "Create, Run, Update and Duplicate",
+     "correct": false,
+     "_id": "55ef0c5a03b4b74b4e77f240"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "CRUD",
+   "instructions": "Please select the correct answer and _Check it!_ to have your answer assessed. If you are wrong, you will see the correct answer highlighted:\n\n**The _CRUD_ acronym stands for:**",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": false
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4129008003",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "correct": false,
+     "answer": "A variable length string can contain letters, numbers, special characters and booleans (true/false) values.",
+     "_id": "55ef3b7568df2b4158906b4c"
+    },
+    {
+     "answer": "Normally, the integer goes from a negative to positive value.",
+     "correct": true,
+     "_id": "55ef3b7568df2b4158906b4b"
+    },
+    {
+     "correct": false,
+     "answer": "The Date() format support the 'YYYY' format.",
+     "_id": "55ef3b7568df2b4158906b4a"
+    },
+    {
+     "answer": "Each column in a database table is required to have a name and a data type.",
+     "correct": true,
+     "_id": "55ef3b7568df2b4158906b49"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Datatypes",
+   "instructions": "Please select all of the possible correct answers and _Check it!_ to have your answer assessed. If you are wrong, you will see the correct answer highlighted:\n\n__What is true about MySQL datatypes:__",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": true
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1176470184",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Creating databases",
+   "instructions": "A `mysql` prompt has been opened for you.\n\nComplete the following task:\n\n1. Create a database named: `dog_breeds`\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-1.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1856823852",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Displaying scientists data",
+   "instructions": "A `sql-2-7.sql` file has been created and opened for you.\n\nWrite each of the following tasks in a new line:\n\n1. Use the `famous_scientists` schema\n2. Show the existing tables\n3. Select all the records from the `scientists` table\n5. Select all the records from the `scientists` table where `year_of_birth` is greater than 1500. Sort them by `year_of_birth` in descending order.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-7.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2627637445",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Creating tables",
+   "instructions": "A `mysql` prompt has been opened for you.\n\nComplete the following tasks:\n\n1. Override the `dog_breeds` database\n1. Use the `dog_breeds` database and create a `dog_catalog` table with the following features:\nColumns: \n`id`: Integer(4) not NULL and auto increment from 1\n`breed`: Varchar(255) \n`region`: Varchar(255)\nPrimary key is the `id` column\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2774583528",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Insert scientists data",
+   "instructions": "A `mysql` prompt has been opened for you.\n\nUsing the `famous_scientists` database:\n\n1. Insert the following data to the `scientists` table:\nValues:\n(\"Galileo Galilei\", \"Modern observational astronomy\", 1564, 1642)\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-6.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3260325949",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Creating the scientists table",
+   "instructions": "A `mysql` has been opened for you.\n\nUsing the `famous_scientists` database:\n\n1. Create a `scientists` table with the following features: \nColumns:\n`id`: Integer max. size of 1. Can't be null. Auto increment from 1.\n`name`: Variable length string max. size of 255 characters. Can't be null. \n`discovery`: Text. Can't be null.\n`year_of_birth`: Integer max. size of 4. Can't be null.\n`year_of_death`: Integer max. size of 4. Defaults to null.\nPrimary key is the `id` column.\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-5.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3787893232",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Creating the database",
+   "instructions": "A `mysql` prompt has been opened for you.\n\nComplete the following tasks:\n\n1. Create a `famous_scientists` database\n\n---\nOnce you have completed this task press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-4.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-53629972",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Inserting data",
+   "instructions": "A `mysql` prompt has been opened for you.\n\nUsing the `dog_breeds` database, complete the following tasks:\n\n1. Insert into the `dog_catalog` table:\nColumns: _breed_, _region_\nValues:\n\"English Sheepdog\", \"England\"\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node .guides/sqltests.js/sql-2-3.js",
+   "points": 1
+  }
+ }
+]

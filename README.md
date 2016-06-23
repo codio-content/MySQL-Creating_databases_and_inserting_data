@@ -1,7 +1,7 @@
 **Learn how to create your own databases, tables and how to insert data into tables.**
 
 
-- The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-Creating_databases_and_inserting_data).
+- The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-Creating_databases_and_inserting_data](https://github.com/codio-content/MySQL-Creating_databases_and_inserting_data).
 
 - For more information on other units in the MySQL course go to [Course-:-MySQL](https://github.com/codio-content/Information/wiki/Course-:-MySQL)
 

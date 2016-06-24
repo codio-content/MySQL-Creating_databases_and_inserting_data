@@ -20,9 +20,8 @@ var tasksArr, connection, count = 0, db;
 function connectTo(db) {
 	connection = mysql.createConnection({
 	  host     : 'localhost',
-	  user     : '',
-	  // user     : 'root',
-	  // password : 'N3tp0ePl@n',
+	  user     : 'root',
+	  password : 'codio',
 	  database : db
 	});
 	connection.connect();

@@ -1,6 +1,6 @@
 Now that our `catalog` table has been created, it's time to `INSERT` some data into it.
 
-As part of the SQL _data manipulation language_ (DDL), the `INSERT` SQL keyword represents the __CREATE__ word of the _CRUD_ acronym.
+As part of the SQL _data manipulation language_ (DML), the `INSERT` SQL keyword represents the __CREATE__ word of the _CRUD_ acronym.
 
 Table data is represented as rows and each of the row fields must match the datatype specified for each column when we created our `catalog` table.
 

@@ -1,0 +1,198 @@
+{
+ "name": "MySQL-Creating_databases_and_inserting_data",
+ "children": [
+  {
+   "title": "Recap",
+   "id": "a02b99c0-bc90-902c-2ec8-f19af90ac3",
+   "pageId": "a02b99c0-bc90-902c-2ec8-f19af90ac3",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "What we'll learn",
+   "id": "ea4e1b9-93f4-4b51-ab82-529422c7723a",
+   "pageId": "ea4e1b9-93f4-4b51-ab82-529422c7723a",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Resetting the unit’s databases",
+   "id": "b515a10e-39d5-43d5-736f-65bbcdc5047",
+   "pageId": "b515a10e-39d5-43d5-736f-65bbcdc5047",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "CRUD",
+   "id": "cb92987f-7893-2b1e-dc10-fabc61528237",
+   "pageId": "cb92987f-7893-2b1e-dc10-fabc61528237",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "2e02803f-61ba-fd34-1f3a-8c952e9d1c23",
+     "pageId": "2e02803f-61ba-fd34-1f3a-8c952e9d1c23",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Creating SQL databases",
+   "id": "d873933a-5a78-d811-9631-2a7f25e4aba9",
+   "pageId": "d873933a-5a78-d811-9631-2a7f25e4aba9",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "DDL & DML",
+     "id": "f1ec7bdf-7660-3f54-4ea9-140a6df0e2a3",
+     "pageId": "f1ec7bdf-7660-3f54-4ea9-140a6df0e2a3",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "4a754149-17da-eda2-6e2b-59da55fbac92",
+     "pageId": "4a754149-17da-eda2-6e2b-59da55fbac92",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "DB creation control",
+   "id": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
+   "pageId": "2a179674-696c-fdcc-f2a8-7a023b9ef375",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "edf3d2e0-1db6-c238-cc3c-5f36e564329",
+     "pageId": "edf3d2e0-1db6-c238-cc3c-5f36e564329",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Basic SQL datatypes",
+   "id": "ac0ff61-5104-ebf3-eab3-bd373c8709",
+   "pageId": "ac0ff61-5104-ebf3-eab3-bd373c8709",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Datatypes",
+     "id": "4592eb06-b3b7-834a-d73d-4e54db4feb7e",
+     "pageId": "4592eb06-b3b7-834a-d73d-4e54db4feb7e",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "da53f85-ace7-86bb-35eb-920bd18f4d9f",
+     "pageId": "da53f85-ace7-86bb-35eb-920bd18f4d9f",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Creating tables",
+   "id": "1a8b8572-8a49-8614-3aa3-e8edf3f79e36",
+   "pageId": "1a8b8572-8a49-8614-3aa3-e8edf3f79e36",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Creating tables",
+     "id": "ab958375-a97a-5296-af14-c950908aeae",
+     "pageId": "ab958375-a97a-5296-af14-c950908aeae",
+     "type": "page"
+    },
+    {
+     "title": "Multi-line statements",
+     "id": "15ff6a29-d9ab-66ae-eea6-b936cd2316b",
+     "pageId": "15ff6a29-d9ab-66ae-eea6-b936cd2316b",
+     "type": "page"
+    },
+    {
+     "title": "Column information",
+     "id": "1c47a236-7efb-5e7a-175b-518c6bd149c",
+     "pageId": "1c47a236-7efb-5e7a-175b-518c6bd149c",
+     "type": "page"
+    },
+    {
+     "title": "Creating tables",
+     "id": "29829c77-d08d-55a1-a8e-74934c117560",
+     "pageId": "29829c77-d08d-55a1-a8e-74934c117560",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "ae6e483d-e833-cbc9-c63f-a122bf26b2a8",
+     "pageId": "ae6e483d-e833-cbc9-c63f-a122bf26b2a8",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "SQL constraints",
+   "id": "2d86659c-5d8e-22f8-f04d-58b49774e43f",
+   "pageId": "2d86659c-5d8e-22f8-f04d-58b49774e43f",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "6c036059-d9f5-bfc7-d78-ce535d5eb27",
+     "pageId": "6c036059-d9f5-bfc7-d78-ce535d5eb27",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Inserting values",
+   "id": "5d40a3b5-ef6d-dbdf-b5b0-6e1d70729b47",
+   "pageId": "5d40a3b5-ef6d-dbdf-b5b0-6e1d70729b47",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Auto increment",
+     "id": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
+     "pageId": "a292ca3c-7a81-2111-fd02-4bf4a073784f",
+     "type": "page"
+    },
+    {
+     "title": "Inserting more values",
+     "id": "f1bdcd92-833d-4ac4-dc53-723b73f77d8f",
+     "pageId": "f1bdcd92-833d-4ac4-dc53-723b73f77d8f",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
+     "pageId": "35b6b5a-bd98-24d8-18f9-db21350c4f71",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Final challenges",
+   "id": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
+   "pageId": "21621c6-a7a7-bd0c-b147-ca844d7db16d",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "f037543-b8eb-d73c-16a7-a0f947395cc7",
+     "pageId": "f037543-b8eb-d73c-16a7-a0f947395cc7",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "e4af54d7-7d4c-b5ff-100a-d25e1ccda7f6",
+     "pageId": "e4af54d7-7d4c-b5ff-100a-d25e1ccda7f6",
+     "type": "page"
+    },
+    {
+     "title": "That's all folks",
+     "id": "d481be6a-802-313f-6546-b5a0e69cf0ff",
+     "pageId": "d481be6a-802-313f-6546-b5a0e69cf0ff",
+     "type": "page"
+    }
+   ]
+  }
+ ]
+}
